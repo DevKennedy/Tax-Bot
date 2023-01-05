@@ -176,4 +176,4 @@ let ac2 = ["online", "idle", "invisible", "dnd","default"];
 ///coded by : Rayan
 
 
-client.login(""); //Your Bot Token & تۆکین لە لێرە دابنێ
+client.login("MTA2MDY4NTY4NTI4MTAwNTYzMQ.GjGCm-.ouzqgk8r6ohd-k8VhJJTLWvTQ8VypuzrtH2CB0"); //Your Bot Token & تۆکین لە لێرە دابنێ
