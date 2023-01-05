@@ -25,8 +25,8 @@ client.on("message", async message => {
 ///coded by : Rayan
 
    
-const prefix = "#";//Your Bot Prefix & پرێفیکسی بۆتەکەت دابنێ
-const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
+const prefix = "#";//Atax & پرێفیکسی بۆتەکەت دابنێ
+const devs = "id";//1060671366963146802 & دەڤی بۆتەکەت دابنێ
   let args = message.content
     .split(" ")
     .slice(1)
@@ -37,16 +37,16 @@ const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
   if (message.content.toLowerCase().startsWith(prefix + "help".toLowerCase())) { 
     let help = new Discord.MessageEmbed()
       .setColor("0x5016f3")
-      .setDescription(`**( Probot Taxs . :rocket: )
+      .setDescription(`**( Probot Tax . :rocket: )
       
         --------------------------------------------------
-               Probot Commands :
+               Probot Commands :Atax
                 
-               1-  ${prefix}tax 
+               1-  ${A}tax 
         --------------------------------------------------
         Developers : <@841245687533535242>
             **`);
-    message.channel.send(help);
+    message.channel.send(+help);
   }
 ///coded by : Rayan
   if (message.content.toLowerCase().startsWith(prefix + "wa".toLowerCase())) { 
@@ -176,4 +176,4 @@ let ac2 = ["online", "idle", "invisible", "dnd","default"];
 ///coded by : Rayan
 
 
-client.login(""); //Your Bot Token & تۆکین لە لێرە دابنێ
+client.login("MTA2MDY4NTY4NTI4MTAwNTYzMQ.GjGCm-.ouzqgk8r6ohd-k8VhJJTLWvTQ8VypuzrtH2CB0"); //Your Bot Token & تۆکین لە لێرە دابنێ
